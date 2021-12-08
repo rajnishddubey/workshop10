@@ -10,7 +10,7 @@ const cors = require("cors");
 
 const userRoute = require("./api/route/user")
 //connect to db
-mongoose.connect('mongodb+srv://Raj:Fwb7fC1HP3Pqw6FD@cluster0.6mws4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect("");
 
 mongoose.connection.on('error',err=>{
     console.log("connection intruppted with database")
